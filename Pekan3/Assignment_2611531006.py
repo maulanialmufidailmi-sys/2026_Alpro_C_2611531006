@@ -1,55 +1,55 @@
 # Program assignment dalam python
 
-angka1 = int(input("Input angka-1:"))
-angka2 = int(input("Input angka-2:"))
+angka1_1006 = int(input("Input angka-1: "))
+angka2_1006 = int(input("Input angka-2: "))
 
-print("\nNilai awal angka1 =", angka1)
-print("Nilai awal angka2 =", angka2)
+print("\nNilai awal angka1 =",angka1_1006)
+print("Nilai angka2 =",angka2_1006)
 
-# Assignement biasa
-hasil = angka1
-print("\nAssignment Biasa (=)")
-print("Hasil =", hasil)
+# Assigment biasa
+hasil_1006 = angka1_1006 
+print("\nAssigment biasa (=)")
+print("Hasil =",hasil_1006)
 
-# Assignment penambahan
-hasil = angka1
-hasil += angka2
-print("\nAssignment Penambahan (+=)")
-print("Hasil =", hasil)
+# Assigment penambahan
+hasil_1006 = angka1_1006 
+hasil_1006 += angka2_1006 
+print("\nAssigment penambahan (+=)")
+print("Hasil =",hasil_1006)
 
-# Assignment pengurangan
-hasil = angka1
-hasil -= angka2
-print("\nAssignment Pengurangan (-=)")
-print("Hasil =", hasil)
+# Assigment pengurangan
+hasil_1006 = angka1_1006 
+hasil_1006 -= angka2_1006 
+print("\nAssigment pengurangan (-=)")
+print("Hasil =",hasil_1006)
 
-# Assignment perkalian
-hasil = angka1
-hasil *= angka2
-print("\nAssignment Perkalian (*=)")
-print("Hasil =", hasil)
+# Assigment perkalian
+hasil_1006 = angka1_1006 
+hasil_1006 *= angka2_1006
+print("\nAssigment perkalian (*=)")
+print("Hasil =",hasil_1006)
 
-# Assignment pembagian, pembagian bulat, dan sisa bagi
-if angka2 != 0:
-    hasil = angka1
-    hasil /= angka2
-    print("\nAssignment Pembagian (/=)")
-    print("Hasil =", hasil)
+# Assigment pembagian, pembagian bulat, dan sisa bagi
+if angka2_1006 != 0:
+    hasil_1006 = angka1_1006 
+    hasil_1006 /= angka2_1006
+    print("\nAssigment pembagian (/=)")
+    print("Hasil =",hasil_1006)
     # Operator tambahan
-    hasil = angka1
-    hasil //= angka2
-    print("\nAssignment Pembagian Bulat (//=)")
-    print("Hasil =", hasil)
-    hasil = angka1
-    hasil %= angka2
-    print("\nAssignment Sisa Bagi (%=)")
-    print("Hasil =", hasil)
+    hasil_1006 = angka1_1006 
+    hasil_1006 //= angka2_1006
+    print("\nAssigment pembagian bulat (//=)")
+    print("Hasil =",hasil_1006)
+    hasil_1006 = angka1_1006 
+    hasil_1006 %= angka2_1006
+    print("\nOperator sisa bagi (%=)")
+    print("Hasil =",hasil_1006)
 else:
-    print("\nPembagian tidak dapat dilakukan")
+    print("\nPembagian tidak dapat dilakukan.")
     print("Angka kedua tidak boleh bernilai 0.")
-    
-# Operator tambahan: assignment perpangkatan
-hasil = angka1
-hasil **= angka2
-print("\nAssignment Perpangkatan (**=)")
-print("Hasil =", hasil)
+
+# Operator tambahan: assigment perpangkatan
+hasil_1006 = angka1_1006 
+hasil_1006 **= angka2_1006
+print("\nOperator perpangkatan (**=)")
+print("Hasil =",hasil_1006)
