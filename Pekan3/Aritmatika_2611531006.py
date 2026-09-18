@@ -1,40 +1,40 @@
 # Buat program untuk operator aritmatika dalam Python
 
-angka1 = int(input("Input angka-1: "))
-angka2 = int(input("Input angka-2: "))
+angka1_1006 = int(input("Input angka-1: "))
+angka2_1006 = int(input("Input angka-2: "))
 
 # Penjumlahan
-hasil = angka1 + angka2
-print ("\nOperator penjumlahan")
-print ("Hasil =", hasil)
+hasil_1006 = angka1_1006 + angka2_1006
+print("\nOperator Penjumlahan")
+print("Hasil =",hasil_1006)
 
 # Pengurangan
-hasil = angka1 - angka2
-print ("\nOperator pengurangan")
-print ("Hasil =", hasil)
+hasil_1006 = angka1_1006 - angka2_1006
+print("\nOperator Pengurangan")
+print("Hasil =",hasil_1006)
 
 # Perkalian
-hasil = angka1 * angka2
+hasil_1006 = angka1_1006 * angka2_1006
 print("\nOperator Perkalian")
-print("Hasil =", hasil)
+print("Hasil =",hasil_1006)
 
 # Pembagian, pembagian bulat, dan sisa bagi
-if angka2 != 0:
-    hasil = angka1 / angka2
+if angka2_1006 != 0:
+    hasil_1006 = angka1_1006 / angka2_1006
     print("\nOperator Pembagian")
-    print("Hasil =", hasil)
+    print("Hasil =",hasil_1006)
 
-    hasil = angka1 // angka2
+    hasil_1006 = angka1_1006 // angka2_1006
     print("\nOperator Pembagian Bulat")
-    print("Hasil =", hasil)
+    print("Hasil =",hasil_1006)
 
-    hasil = angka1 % angka2
+    hasil_1006 = angka1_1006 % angka2_1006
     print("\nOperator Sisa Bagi")
-    print("Hasil =", hasil)
+    print("Hasil =",hasil_1006)
 else:
     print("Angka kedua tidak boleh bernilai 0.")
 
 # Pangkat
-hasil = angka1 ** angka2
+hasil_1006 = angka1_1006 ** angka2_1006
 print("\nOperator Pangkat")
-print("Hasil =", hasil)
+print("Hasil =",hasil_1006)
